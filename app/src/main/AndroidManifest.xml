@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.medicaps.bloodnate_bloodbank">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:logo="@drawable/logo"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BloodnateBloodBank">
+        <activity
+            android:name=".RequestOptions"
+            android:exported="false"
+            android:label="Request"/>
+        <activity
+            android:name=".Data"
+            android:exported="false"
+            android:label="Edit database" />
+        <activity
+            android:name=".PendingRequests"
+            android:exported="false"
+            android:label="Requests" />
+        <activity
+            android:name=".LookDatabase"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSection"
+            android:exported="false"
+            android:label="Admin" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false"
+            android:label="ADMIN" />
+        <activity
+            android:name=".StatusActivity"
+            android:exported="false"
+            android:label="Status" />
+        <activity
+            android:name=".DonateActivity"
+            android:exported="false"
+            android:label="@string/donate_blood" />
+        <activity
+            android:name=".RequestActivity"
+            android:exported="false"
+            android:label="@string/request_blood" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

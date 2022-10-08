@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Bloodnate-Blood bank</string>
+    <string name="bloodnate_india_ka_digital_blood_bank">Bloodnate-India ka digital blood bank</string>
+    <string name="request_blood">Request Blood</string>
+    <string name="donate_blood">Donate Blood</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="enter_full_address">Enter full address</string>
+    <string name="enter_e_mail_address">Enter E-mail address</string>
+    <string name="enter_admin_id">Enter Admin ID</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="title_activity_admin_section">AdminSection</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="look_database">Look Database</string>
+</resources>
